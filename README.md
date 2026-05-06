@@ -193,11 +193,11 @@ This project is licensed under the MIT License.
 
 Author
 
-**Your Name**
+**Abigael Mwangi**
 
-* GitHub: https://github.com/your-username
-* Email: your-email@example.com
+* GitHub: https://abbiejonnes.com/your-username
+* Email: your-abigaelmwangi534@gmail.com
 
-Vision
+## Vision
 
 To digitize and empower the Jua Kali sector by providing accessible, scalable, and efficient software solutions that enhance productivity and market reach
