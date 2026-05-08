@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY FIRST WEB PAGE</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mastering HTML: A complete student guide</title>
     </head>
     <body>
-        <h1>HELLO WORLD</h1>
-        <p>This is my first web page</p>
+        <header>
+            <h1>Web development Masterclass</h1>
+            <nav aria-label="Main Navigation">
+             <ul class="nav-list">
+                <li><a href="#links">Links</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="mailto:abigaelmwangi534@gmail.com">Email me</a></li>
+
+             </ul>
+                
+            </nav>
+            </header>
+            <main>
+                <section id="links">
+<h2> 1. Navigation & pathing</h2>
+<p><strong>Absolute Link</strong>points to external site
+    <a href="https://zinduaschool.com" target="_blank">Learn more</a>
+</p>
+
+<p><strong>Relative Link</strong>points to internal site
+    <a href="index.html">Contact us</a>
+</p>
+
+<p>
+    <strong>Internal Link</strong>points to an internal resource in the same page
+    <a href="#specialized">Jump to the date & color Picker</a>
+</p>
+</section>
+
+<section id="media">
+    <h2>Multimedia and Responsive Graphics</h2>
+    <h3>Responsive images</h3>
+    <p>The browser chooses the best image based on the device width</p>
+    <img src="assests/images/Screenshot (124).png"
+    srcset="assests/images/Screenshot (124).png, assests/images/music.png"
+    sizes="(max-width: 600px) 100vw, 50vw"
+    alt="responsive image" width="700px" height="500px">
+    <h3>Image maps</h3>
+    <img src="assests/images/PTyRdkkf.jpg"
+    usemap="#deskmap"
+    alt="Desk"
+    width="500"
+    height="600">
+    <map name="deskmap">
+        <!--Rectangle area(x1, y1, x2, y2)-->
+        <area shape="rect" 
+        coords="34,44,270,350" 
+        href="https://zinduaschool.com"
+        target="_blank"
+         alt="Computer">
+         <!-- Circular area (x, y, radius)-->
+          <area shape="circle"
+          coords="337,300,44"
+          href="https://google.com"
+        target="_self"
+        alt="Search">
+        </map>
+<!--Video and audio -->
+<h3>Audio & Video Players</h3>
+            <audio controls style="width: 100%; margin-bottom: 10px;">
+                <source src="assests/audio/Into_You_-_Ariana_Grande_(Lyrics)(128k).m4a" type="audio/m4a">
+                Your browser does not support the audio tag.
+            </audio>
+            <!-- The 'poster' attribute below adds the thumbnail image -->
+            <video width="100%" controls poster="./assets/images/mohammad-rahmani-oXlXu2qukGE-unsplash.jpg">
+                <source src="assests/videos/bike.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+</section>
+
+</main>
+            
+
+                   
     </body>
-</html>
+    </html>

@@ -50,7 +50,7 @@ django Rest Framework(DRF)
 PostgreSQL
 
 
-text
+```text
 jua-kali-connect/
 │
 ├── frontend/                # React application
@@ -70,6 +70,7 @@ jua-kali-connect/
 ├── requirements.txt
 ├── package.json
 └── README.md
+```
 
 ## Instalation & set up
 bash
